@@ -1,0 +1,15 @@
+Summary,Issue key,Custom field (Target end),Custom field (Target start)
+Virus scanning,RR*3424,25/Oct/19,11/Sep/19
+FUD Tool,ROT*1283,29/Nov/19,01/Oct/18
+Remove BEAN handling,RR*3329,29/Nov/19,01/Jul/19
+Remove  FEDT,RR*3171,30/Jan/20,28/Jun/19
+Output Delivery improvement,RR*3367,23/Oct/19,08/Aug/19
+Error Workflow Task Screen,ROT*1102,26/Sep/19,20/Aug/19
+Move to AWS Cloud,RR*1213,18/Feb/20,14/Dec/14
+Workflow Processes Screen and subscreen Activity Statuses,ROT*1790,29/Nov/19,02/Sep/19
+Unify asset storage,RR*2698,28/Apr/19,14/Jun/17
+Rewrite Tasks to use Hibernate,RR*3379,30/Sep/20,06/Apr/20
+Resupply Implementation,ROT*1537,31/Oct/19,03/Sep/19
+Enable security,RR*3380,23/Sep/21,06/Jul/20
+Customisation of Deliveries,RR*3369,26/Sep/19,08/Aug/19
+Cucumber Integration Tests for all  tasks,RR*3325,30/Apr/20,05/Aug/19

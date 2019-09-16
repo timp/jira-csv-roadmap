@@ -1,0 +1,107 @@
+<html>
+<head>
+  <style>
+  body {
+    font-family:Arial;
+    border: 1px solid black;
+  }
+  title, h2, caption {
+    color:Orange;
+  }
+  table {
+    border: solid black 1px;
+  }
+  td {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:visited, a:hover {
+    color: Blue;
+  }
+
+  .headerRow {
+    color:Black;
+    font-weight: bold;
+  }
+  .oddHeader {
+    background-color:Aqua;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 8%;
+  }
+  .evenHeader{
+    background-color:Aqua;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 8%;
+  }
+  .oddRow{
+    background-color:LightBlue;
+  }
+  .evenRow{
+    background-color:LightBlue;
+  }
+  .ticket {
+    background-color:#ffffa6;
+    display:block;
+    text-overflow:ellipsis;
+    padding-left: 4px;
+    margin: 2px;
+  }
+  .ticketContainer {
+    background-color:Orange;
+  }
+  </style>
+<title>
+$title
+</title>
+<body>
+
+<table width="96%" align=center cellpadding=0 cellspacing=0 class="fixed">
+  <caption>${title}</caption>
+  <tr class="headerRow">
+    <th class="oddHeader">
+      $m1
+  </th>
+  <th class="evenHeader">
+    $m2
+  </th>
+  <th class="oddHeader">
+    $m3
+  </th>
+  <th class="evenHeader">
+    $m4
+  </th>
+  <th class="oddHeader">
+    $m5
+  </th>
+  <th class="evenHeader">
+    $m6
+  </th>
+  <th class="oddHeader">
+    $m7
+  </th>
+  <th class="evenHeader">
+    $m8
+  </th>
+  <th class="oddHeader">
+    $m9
+  </th>
+  <th class="evenHeader">
+    $m10
+  </th>
+  <th class="oddHeader">
+    $m11
+  </th>
+  <th class="evenHeader">
+    $m12
+  </th>
+  </tr>
+
+${rows}
+</table>
+</body>
+</html>
