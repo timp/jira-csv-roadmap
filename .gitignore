@@ -1,1 +1,10 @@
 .idea
+jira-csv-roadmap-secret.py
+venv
+EWIIRoadmap.csv
+VTWRoadmap.csv
+ewii_2019_q3.html
+ewii_2019_q4.html
+vtw_2019_q3.html
+vtw_2019_q4.html
+
